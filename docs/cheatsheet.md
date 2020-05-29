@@ -118,7 +118,7 @@ Responses are configured with the second, and sometimes third, arguments passed 
 - **streamed content** `new Blob()`, `{sendAsJson: false}`
 - **headers** `{body: 'hello world', status: 200, headers: {'Content-Type': 'text'}`
 - **throw** an error `{throws: new Error('fetch failed')}`
-- **redirect** `{redirectUrl: 'http://other.site, status: 302}`
+- **redirect** `{redirectUrl: 'http://other.site', status: 302}`
 - **function** `` (url, options, request) => `Content from ${url}` ``
 
 ### Timing and repetition
